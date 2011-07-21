@@ -1,0 +1,20 @@
+/*
+Original design: Basic Contact (light) (v1.0 - Apr 28, 2011) - A free xhtml/css website template by Andreas Viklund.
+For more information, see http://andreasviklund.com/templates/basic-contact/
+*/
+
+body {background:#e5e5e5 top center no-repeat; font:90% Helvetica,Verdana,sans-serif; color:#555; line-height:1.6em;}
+a {color:#387292; text-decoration:none; border-bottom:1px dotted #888;}
+a:hover {color:#444;}
+h1{font-size:3.6em;font-weight:400;letter-spacing:-1px;}
+h2{font-size:1.8em;font-weight:400;letter-spacing:-1px;}
+h3{font-size:1.2em;font-weight:400;letter-spacing:-1px;border-bottom:1px dotted #888;}
+#sidebar {margin:10px 0 30px 0;width:30px;float:left;}
+#content1{margin:30px 0 30px 0px;width:760px;}
+#content{margin:30px 0 30px 360px;width:760px;}
+#footer {clear:both;padding:5px 0;color:#888;text-align:center;border-top:1px solid #bbb;}
+#footer a {color:#888;}
+
+#contactform input {width:220px;background-color:#eaeaea;color:#555;border:1px solid #bbb;padding:5px;}
+#message {font-size:1.0em;width:350px;background-color:#eaeaea;color:#200;border:3px solid #bbb;padding:5px;}
+#message2 {font-size:0.8em;width:350px;background-color:#eaeaea;color:#200;border:0px solid #bbb;padding:5px;}

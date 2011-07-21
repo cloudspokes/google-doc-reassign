@@ -1,0 +1,12 @@
+Reassign Google Docs Owners
+
+URL: http://www.cloudspokes.com/challenge_detail.html?contestID=215
+Challenge end date: Thu Jun 23 03:00:00 GMT 2011
+
+Description
+===========
+Develop an AppEngine app that takes a JSON list of Google Doc IDs and <b>copies</b> them and their existing permission settings to another provided Google Apps User account. Once copied, the App should return a JSON list of old and new Google Doc IDs.
+
+Requirements
+============
+The application will authenticate the user using a Google Admin Account with OAuth. Other parameters to the services will include a JSON list of Doc IDs and an optional valid Google User Account that will be used as the new owner. If the last parameter is missing, the docs will be assigned to the calling admin account. <br><br> If the Account accessing the Docs does not have the correct permissions, the application will gracefully export the failure message and provide a list of Documents that couldn’t be copied. <br><br> The Application will continue to process all other documents even if it does not have access to some documents or if some Doc IDs are invalid. <br><br> The output of the App should be a JSON feed of of old Google Doc IDs and new Google Doc IDs. <br><br> Extra Credit - Optionally provide a flag that will request access to a document if the accessing account does not have the correct permissions. <br><br> Extra Credit - Create a UI that takes a Google Admin Account, an option second Google Account, and a comma delimited or JSON formatted list of Doc IDs. <br><br> Additionally store the JSON feed to the AppEngine datastore. <br><br> Optionally allow user credentials and oauth token to be passed to the Application URL along with the list of Doc IDs. <br><br>
